@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutterauth/services/authservice.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
+import '../dashboardpage.dart';
+
 class LoginScreen extends StatefulWidget {
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -89,6 +91,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       textColor: Colors.white,
                       fontSize: 16.0
                     );
+                     Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => DashboardPage()));
                   }
                 });
               },
