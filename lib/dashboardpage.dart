@@ -108,7 +108,7 @@ class _DashboardPageState extends State<DashboardPage>
                     Color(0xFFFFE9C6), Color(0xFFDA9551)),
                 _buildListItem('ACCOUNT', 'images/per.jpg', '15',
                     Color(0xFFC2E3FE), Color(0xFF6A8CAA)),
-                _buildListItem('PRODUCTS', 'images/pro.png', '15',
+                _buildListItem('PRODUCT', 'images/pro.png', '15',
                     Color(0xFFD7FADA), Color(0xFF56CC7E)),
                 _buildListItem('FAVORITES', 'images/heart.png', '15',
                     Color(0xFFE1BEE7), Color(0xFFBA48C8)),
